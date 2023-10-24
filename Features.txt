@@ -1,0 +1,17 @@
+Overview of the Laundry system: 
+Tools & frameworks : HTML, CSS, JS, PHP ( just for connecting to the MySQL database ).
+-> People and Admin (Dhobi) can login to their account.
+
+-> Whenever we give clothes, we get an update on our interface about what is the quantity of clothes, special instructions, etc and it will be fetched from MySQL database. Same for the admin, but he will have hostel-wise sections, where he can see the same with our room numbers.
+
+-> If already registered, he doesn't have to write again, he just have to update the number of clothes and the special instructions. (Time saving & just few clicks)
+
+-> We attach status of the current order we have given to him, for example: Order received, Currently washing, currently ironing, currently dry cleaning, and Done. This will be visible to us, so we know what is going on. This can only be updated by the admin.
+
+-> We can also show when will the dhobi be coming to our hostel, so we know when we collect or give clothes.
+
+-> We can search what clothes we have given or are pending using the a utility bar (Useful when multiple orders given and lots of clothes are there in each order).
+
+If time permits:
+-> We can use APIs to directly connect to PayTM/ UPIs for payment details and payment status.
+-> We can directly call the dhobi through the website
